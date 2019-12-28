@@ -2,7 +2,7 @@
 
 ## Installation
 
-### # Debian / Ubuntu
+### Debian / Ubuntu
 
 ```
 apt-get install git build-essential autoconf libtool libssl-dev  libpcre3 libpcre3-dev asciidoc xmlto zlib1g-dev libsodium-dev
@@ -15,7 +15,7 @@ make install
 
 ## Usage
 
-#### -> Create a SSR Config
+### -> Create an SSR Config File
 ```
 mkdir /usr/local/SSR/conf
 vim /usr/local/SSR/conf/SSR-Config.json
@@ -38,11 +38,11 @@ vim /usr/local/SSR/conf/SSR-Config.json
 }
 ```
 
-#### -> Run
+### -> Run
 ```
 /usr/local/SSR/ss-local -c /usr/local/SSR/SSR-Config.json
 ```
-#### -> Stop
+### -> Stop
 
 ```
 Control(Ctrl) + C
